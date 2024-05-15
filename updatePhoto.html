@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Profile Photo</title>
+</head>
+<body>
+    <h2>Update Profile Photo</h2>
+    <form id="profilePhotoForm" enctype="multipart/form-data" action="/updateProfilePhoto" method="POST">
+        <input type="file" id="fileInput" name="profilePhoto" accept="image/*" required>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
